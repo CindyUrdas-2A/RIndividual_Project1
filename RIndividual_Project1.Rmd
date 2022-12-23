@@ -11,19 +11,19 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #Packages
 ```{r}
-install.packages("twitteR")
-install.packages("dplyr")
-install.packages("tidyr")
-install.packages("plotly")
-install.packages("ggplot2")
-install.packages("RColorBrewer")
-install.packages("tidytext")
-install.packages("rtweet")
-install.packages("tm")
-install.packages("slam")
-install.packages("wordcloud")
-install.packages("wordcloud2")
-install.packages("corpus")
+library(twitteR)
+library(dplyr)
+library(tidyr)
+library(plotly)
+library(ggplot2)
+library(RColorBrewer)
+library(tidytext)
+library(rtweet)
+library(tm)
+library(slam)
+library(wordcloud)
+library(wordcloud2)
+library(corpus)
 ```
 
 #Extract from twitter using your developer's credentials.Choose any keyword you want.
